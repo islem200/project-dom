@@ -4,6 +4,7 @@ function getRandomHexColor() {
 
   // Ensure the string is 6 characters long by padding with leading zeros if necessary
   return `#${randomColor.padStart(6, '0')}`;
+  //padStart todhmen eli fama 6 hexadecimal
 }
 
 document.addEventListener('DOMContentLoaded', () => {
